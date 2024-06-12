@@ -11,4 +11,16 @@ export const styles = StyleSheet.create({
     marginRight: 32,
     alignSelf: "flex-end",
   },
+
+  bgImg: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
+  gradient: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
+  blur: {
+    ...StyleSheet.absoluteFillObject,
+  },
 })
